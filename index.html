@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boolulu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    
+</head>
+<body>
+    <header>
+        <section class="pc-header">
+            <nav class="pc-nav container d-flex">
+                <div class="pc-logo">
+                    <a href="index.html"><img src="./image/logo.png" alt=""></a>
+                </div>
+                <div class="pc-menu d-flex align-items-center justify-content-between">
+                    <div class="pc-nav-left mx-4">
+                        <ul class="d-flex">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="./menu.html">MENU</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="pc-nav-right">
+                        <ul class="d-flex">
+                            <li><i class="fa-solid fa-clock"></i></li>
+                            <li>10:00 am - 06:30 pm</li>
+                        </ul>  
+                    </div>
+                </div>
+            </nav>
+        </section> 
+
+        <section class="mobile-header">
+            <div class="mobile-nav align-items-center">
+                <div id="ham" class="ham">
+                    <i class="fa-solid fa-grip-lines"></i>
+                </div>
+                <div class="mobile-header-logo">
+                    <img src="./image/logo.png" alt="">
+                </div>
+                <div id="clock">
+                    <i id="clock-icon" class="fa-solid fa-clock"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="hamburger">
+            <div class="ham-menu">
+                <ul class="flex-column">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="ham-clock">
+                <ul class="flex-column">
+                    <li>10:00 am - 06:30 pm</li>
+                </ul>
+            </div>
+        </section>
+
+    </header>
+    
+    <main>
+        <section class="banner">
+            <div class="b-1 container">
+                <div class="row no-gutters align-items-center">
+                    <div class="banner-left col-lg-6 col-12 text-center text-lg-left order-2 order-lg-1 text-animation">
+                        <h3 class="b-h3">Canelé</h3>
+                        <h2 id="banner-h2" class="b-h2">Vanilla Flavour</h2>
+                        <p id="banner-p" class="b-p">Dark brown outside But soft inside</p>
+                        <p class="b-p">Medium size：4x4cm</p>
+                        <a href="./menu.html"><button class="order-btn">ORDER NOW</button></a>
+                    </div>
+                    <div class="banner-right d-flex justify-content-center col-lg-6 col-12 order-1 order-lg-2">
+                        <img id="banner-pic" src="./image/banner1.png" alt="">
+                    </div>
+                </div>
+                <div class="banner-bar">
+                    <ul class="d-flex justify-content-center">
+                        <li id="li-vanilla">Vanilla</li>
+                        <li id="li-matcha">Matcha</li>
+                        <li id="li-chocolate">Chocolate</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
+        <section id="about" class="about">
+            <div class="section-title">
+                <h3>About Canele</h3>
+                <img src="./image/heading-separate.png" alt="">
+            </div>
+            <div class="container about-overflow">
+                <div class="about-body row no-gutters align-items-center">
+                    <div id="about-left" class="about-left col-lg-6 col-12 d-flex justify-content-center d-100">
+                        <img id="about-img" src="./image/about1.png" alt="">
+                    </div>
+                    <div id="about-right" class="about-right col-lg-6 col-12 ">
+                        <h2 class="a-h2">Canele, known as "Angel's Bell" in Taiwan</h2>
+                        <p class="a-p">A canelé is a small French pastry flavored with rum and vanilla with a soft and tender custard center and a dark, thick caramelized crust. <br><br>
+                            It takes the shape of a small, striated cylinder up to five centimeters in height with a depression at the top.
+                            A specialty of the Bordeaux region of France, today it is widely available in pâtisseries in France and abroad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips">
+            <div class="section-title">
+                <h3>4 Tips to bake Canele</h3>
+                <img src="./image/heading-separate.png" alt="">
+            </div>
+            <div class="container tips-overflow">
+                <div class="row no-gutters align-items-center pt-3"> 
+                    <div class="tips-left col-lg-4">
+                        <div class="tips1 d-flex ">
+                            <div class="icon-pic">
+                                <img class="tips-icon" src="./image/tips1.png" alt="">
+                            </div>
+                            <div class="tips-text">
+                                <h2>The prepared batter should be placed in the refrigerator the day before</h2>
+                                <p>The batter after placing will undergo photosynthesis to make the canele more fragrant and organized.</p>
+                            </div>
+                        </div>
+
+                        <div class="tips2 d-flex ">
+                            <div class="icon-pic">
+                                <img class="tips-icon" src="./image/tips2.png" alt="">
+                            </div>
+                            <div class="tips-text">
+                                <h2>Beeswax thickness should be mastered properly</h2>
+                                <p>Using organic, 100% odor-free beeswax works really well and adds a touch of flavor to the final canele. Applying too much beeswax can cause the canelé to bake unevenly or the crust to be too hard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tips-center-pic" class="tips-center col-lg-4">
+                        <img src="./image/made.png" alt="">
+                    </div>
+                    <div class="tips-right col-lg-4">
+                        <div class="tips3 d-flex flex-lg-row-reverse">
+                            <div class="icon-pic">
+                                <img class="tips-icon" src="./image/tips3.png" alt="">
+                            </div>
+                            <div class="tips-text text-lg-right ">
+                                <h2>Carefully selected ingredients</h2>
+                                <p>Use whole milk, vanilla flavor use vanilla bean instead of vanilla extract, and choose dark rum for rum to make the flavor deeper.</p>
+                            </div>
+                        </div>
+
+                        <div class="tips4 d-flex flex-lg-row-reverse">
+                            <div class="icon-pic">
+                                <img class="tips-icon" src="./image/tips4.png" alt="">
+                            </div>
+                            <div class="tips-text text-lg-right">
+                                <h2>The last step of the perfect canele</h2>
+                                <p>After cooking, quickly put into the freezer to reduce the traveling velocity of water keep the crust of the canele crisp.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers">
+            <div class="section-title">
+                <h3>This month offers</h3>
+                <img src="./image/heading-separate.png" alt="">
+                <!-- <h2>We offer something different to local and foreign patrons <br> and ensure you enjoy a memorable food experience every time.</h2> -->
+            </div>
+            <div class="container">
+                <div class="offers-body pt-3">
+                    <div class="offers1 row no-gutters">
+                        <div class="offers-left col-lg-3 d-flex flex-lg-column justify-content-around">
+                            <div class="offers-card1">
+                                <div class="offers-pic">
+                                    <img src="./image/canele2.png" alt="">
+                                </div>
+                                <div class="offers-name moblie-none">
+                                    <h3>MATCHA</h3>
+                                </div>
+                            </div>
+                            <div class="offers-card2">
+                                <div class="offers-pic">
+                                    <img src="./image/canele3.png" alt="">
+                                </div>
+                                <div class="offers-name moblie-none">
+                                    <h3>CHOCOLATE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers-right col-lg-9 text-lg-left text-center">
+                            <div class="offers-text">
+                                <h2 id="offers-h2" class="moblie-none">Matcha flavour canele</h2>
+                                <h3 id="offers-h3" class="mobile-padding">濃濃小山園抹茶口味</h3>
+                                <h4 class="ingerdient text-left">INGERDIENTS：</h4>
+                                <p id="offers-p1" class="text-left">抹茶粉、黑豆、上白糖、蛋黃、蛋白、
+                                </p>
+                                <p id="offers-p2" class="offers-p1 text-left">牛奶、威士忌、奶油、麵粉</p>    
+                                <p id="offers-p3" class="text-left">本露露使用日本丸久小山園抹茶中の若竹 ，屬於薄茶風味濃郁香醇，不苦澀！有一種清新的感覺。
+                                </p>
+                                <p id="offers-p4" class="text-left">
+                                    小山園抹茶總共分為八個等級，之所以會選用這款，是因為"若竹"在小山園抹茶中，不論甘味或澀味都是屬於中間等級，色香味非常均衡，讓品嚐抹茶露露の人能一口咬下脆脆的外皮，緊接著入口就是濃濃滑順又具有層次感的抹茶。
+                                </p>
+                                <h4>THIS MONTH : &nbsp;<span class="month-price">$50</span></h4>
+                                <a href="./menu.html"><button class="order-btn offers-btn">MENU</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="delivery"> 
+            <div class="section-title">
+                <h3>Product Delivery</h3>
+                <img src="./image/heading-separate.png" alt="">
+            </div> 
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="delivery-card col-lg-4 text-center delivery-card1">
+                        <div class="delivery-icon d-flex align-items-center justify-content-center">
+                            <img src="./image/1.png" alt="">
+                        </div>
+                        <div class="delivery-text mt-3">
+                            <h4>In-Store Pickup</h4>
+                            <p class="pickup">於營業時間內至工作室自取</p>
+                        </div>
+                    </div>
+                    <div class="delivery-card col-lg-4 text-center delivery-card2">
+                        <div class="delivery-icon d-flex align-items-center justify-content-center">
+                            <img src="./image/2.png" alt="">
+                        </div>
+                        <div class="delivery-text mt-3">
+                            <h4>Frozen Delivery</h4>
+                            <p class="frozen">使用黑貓冷凍宅配 <br> 運費以box尺寸計算</p>
+                        </div>
+                    </div>
+                    <div class="delivery-card col-lg-4 text-center delivery-card3">
+                        <div class="delivery-icon3 d-flex align-items-center justify-content-center">
+                            <img src="./image/3.png" alt="">
+                        </div>
+                        <div class="delivery-text mt-3">
+                            <h4>Lalamove</h4>
+                            <p class="lalamove">運費請自行使用Lalamove APP估算</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="">
+            <div class="row no-gutters align-items-center text-center justify-content-center">
+                <div class="footer-left col-lg-5">
+                    <h4 class="footer-h4 ">Contact</h4>
+                    <p class="footer-p">
+                        新北市蘆洲區集賢路267號
+                        <br>
+                        boolulu@gmail.com
+                    </p>
+                </div>
+                <div class="footer-logo col-lg-2 mt-3">
+                    <!-- <img src="./image/logo.png" alt=""> -->
+                    <h4 class="footer-h4 moblie-none">Follow us !</h4>
+                     <a target="_blank" href="https://www.instagram.com/boolulu.co/"><img src="./image/ins.png" alt=""></a>
+                     <a target="_blank" href="https://www.facebook.com/"><img src="./image/fb.webp" alt=""></a>
+                </div>
+                <div class="footer-right col-lg-5 mt-3">
+                    <h4 class="footer-h4">Opening Time</h4>
+                    <p class="footer-p">Monday - Friday <br> 10:00 am - 06:30 pm
+                </div>
+        </div>
+    </footer>
+    <div id="box-top" class="box">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="js/canele.js"></script>
+
+</body>
+</html>

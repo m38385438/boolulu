@@ -1,0 +1,31 @@
+.contact-main{
+    background-color: #F4F2E9;
+}
+.contact{
+    /* height: 90vh; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+@media (max-width:990px) {
+    .moblie-none{
+        display: none;
+    }
+}
+.form-group{
+    margin-top: 25px;
+}
+label{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #774C23;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.contact-btn{
+    margin-top: 20px;
+}
+.footer-logo a img{
+    width: 35px;
+}

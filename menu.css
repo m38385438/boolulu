@@ -1,0 +1,150 @@
+.menu{
+    background: url(./image/bg-offers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-text{
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    color: #774C23;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.menu-btn{
+    width: 160px;
+    padding: 15px 0 15px 0;
+    border: 2px solid #E0A45E;
+    border-radius: 50px;
+    background-color:#F4F2E9;
+    font-size: 10px;
+    font-family: 'Lora', serif;
+    color: #4A221A;
+    font-weight: 600;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+}
+@media (max-width:990px) {
+    .menu-btn{
+        margin: 0 5px 0 5px;
+        width: 120px;
+    }
+}
+.menu-btn:hover{
+    background-color:#4A221A;
+    color: #F4F2E9;
+    border: none;
+}
+.menu-body{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    height: 400px;
+}
+@media (max-width:990px) {
+    .menu-body{
+        height: 600px;
+    }
+}
+.menu-card{
+    margin-top: 50px;
+}
+.menu-card h3{
+    color: #4A221A;
+    font-family: 'Lora', 'serif';
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu-card h4{
+    color: #774C23;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.menu-card p{
+    color: #4A221A;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 800;
+}
+.menu-card-pic img{
+    width: 70px;
+}
+.menu-card-pic-box img{
+    width: 150px;
+}
+#all-canele {
+    position: absolute;
+    visibility: hidden;
+}
+#gift-canele{
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+}
+.gift{
+    margin: 0 30px 0 30px;
+}
+
+@keyframes allslidedown {
+    0% {
+        visibility: inherit;
+        opacity: 0;
+        transform: translateY(-65%);
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    45% {
+        opacity: 1;
+    }
+    99% {
+        visibility: inherit;
+    }
+    100% {
+        visibility: inherit;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes giftslidedown {
+    0% {
+        visibility: inherit;
+        opacity: 0;
+        transform: translateY(-65%);
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        visibility: inherit;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.all-canele-animation{
+    animation: allslidedown 1.5s;
+    animation-fill-mode: forwards;
+}
+.gift-canele-animation{
+    animation: giftslidedown 1.5s;
+    animation-fill-mode: forwards;
+}

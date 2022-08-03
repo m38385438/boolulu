@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meun</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    
+</head>
+<body>
+    <header>
+        <section class="pc-header">
+            <nav class="pc-nav container d-flex">
+                <div class="pc-logo">
+                    <a href="index.html"><img src="./image/logo.png" alt=""></a>
+                </div>
+                <div class="pc-menu d-flex align-items-center justify-content-between">
+                    <div class="pc-nav-left mx-4">
+                        <ul class="d-flex">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="./menu.html">MENU</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="pc-nav-right">
+                        <ul class="d-flex">
+                            <li><i class="fa-solid fa-clock"></i></li>
+                            <li>10:00 am - 06:30 pm</li>
+                        </ul>  
+                    </div>
+                </div>
+            </nav>
+        </section> 
+
+        <section class="mobile-header">
+            <div class="mobile-nav align-items-center">
+                <div id="ham" class="ham">
+                    <i class="fa-solid fa-grip-lines"></i>
+                </div>
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="./image/logo.png" alt=""></a>
+                </div>
+                <div id="clock">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="hamburger">
+            <div class="ham-menu">
+                <ul class="flex-column">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="ham-clock">
+                <ul class="flex-column">
+                    <li>10:00 am - 06:30 pm</li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+       <section class="menu">
+           <div class="menu-top">
+               <div class="text-center top-text">
+                   <h4>HOME・MENU</h4>
+               </div>
+                <div class="section-title">
+                    <h3>Boolulu Menu</h3>
+                    <img src="./image/heading-separate.png" alt="">
+                </div>
+                <div class=" text-center pt-5">
+                    <button id="allbtn" class="menu-btn">All Canele</button>
+                    <button id="giftbtn" class="menu-btn">Gift Box</button>
+               </div>
+           </div>
+
+           <div class="container menu-body d-flex justify-content-around">
+               <div id="all-canele" class="row no-gutters all-canele-animation">
+                    <div class="menu-card col-lg-4 text-center col-6">
+                        <div class="menu-card-pic">
+                            <img src="./image/canele5.png" alt="">
+                        </div>
+                        <div class="menu-card-text">
+                            <h3>Vanilla Flavor</h3>
+                            <h4>經典香草口味</h4>
+                            <p>$60</p>
+                        </div>
+                    </div>
+                    <div class="menu-card col-lg-4 text-center col-6">
+                            <div class="menu-card-pic">
+                                <img src="./image/canele1.png" alt="">
+                            </div>
+                            <div class="menu-card-text">
+                                <h3>Caramel Sea Salt Flavor</h3>
+                                <h4>焦糖海鹽口味</h4>
+                                <p>$70</p>
+                            </div>
+                    </div>
+                    <div class="menu-card col-lg-4 text-center col-6">
+                            <div class="menu-card-pic">
+                                <img src="./image/canele2.png" alt="">
+                            </div>
+                            <div class="menu-card-text">
+                                <h3>Matcha Flavor</h3>
+                                <h4>濃濃小山園抹茶口味</h4>
+                                <p>$65</p>
+                            </div>
+                    </div>
+                    <div class="menu-card col-lg-4 text-center col-6">
+                            <div class="menu-card-pic">
+                                <img src="./image/canele3.png" alt="">
+                            </div>
+                            <div class="menu-card-text">
+                                <h3>Chocolate Flavor</h3>
+                                <h4>黑嚕嚕巧克力口味</h4>
+                                <p>$65</p>
+                            </div>
+                    </div>
+                    <div class="menu-card col-lg-4 text-center col-6">
+                            <div class="menu-card-pic">
+                                <img src="./image/canele4.png" alt="">
+                            </div>
+                            <div class="menu-card-text">
+                                <h3>Lemon Curd Flavor</h3>
+                                <h4>佐檸檬乳口味</h4>
+                                <p>$65</p>
+                            </div>
+                    </div>
+                    <div class="menu-card col-lg-4 text-center col-6">
+                            <div class="menu-card-pic">
+                                <img src="./image/canele6.png" alt="">
+                            </div>
+                            <div class="menu-card-text">
+                                <h3>Earl Grey Tea Flavor</h3>
+                                <h4>香醇伯爵茶口味</h4>
+                                <p>$65</p>
+                            </div>
+                    </div>
+               </div> 
+               <div id="gift-canele" class="row no-gutters justify-content-center">
+                <div class="menu-card gift text-center">
+                    <div class="menu-card-pic-box">
+                        <img src="./image/box1.png" alt="">
+                    </div>
+                    <div class="menu-card-text">
+                        <h3>Gift-box</h3>
+                        <h4>綜合可麗露-6入</h4>
+                        <p>$380</p>
+                    </div>
+                </div>
+                <div class="menu-card gift text-center">
+                    <div class="menu-card-pic-box">
+                        <img src="./image/box2.png" alt="">
+                    </div>
+                    <div class="menu-card-text">
+                        <h3>Gift-box</h3>
+                        <h4>綜合可麗露-9入</h4>
+                        <p>$570</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <!-- <div class="container menu-body">
+                <div id="gift-canele" class="row no-gutters justify-content-center">
+                    <div class="menu-card gift text-center">
+                        <div class="menu-card-pic-box">
+                            <img src="./image/box1.png" alt="">
+                        </div>
+                        <div class="menu-card-text">
+                            <h3>Canele*6</h3>
+                            <h4>綜合可麗露-6入禮盒</h4>
+                            <p>$380</p>
+                        </div>
+                    </div>
+                    <div class="menu-card gift text-center">
+                        <div class="menu-card-pic-box">
+                            <img src="./image/box2.png" alt="">
+                        </div>
+                        <div class="menu-card-text">
+                            <h3>Canele*9</h3>
+                            <h4>綜合可麗露-9入禮盒</h4>
+                            <p>$570</p>
+                        </div>
+                    </div>
+                </div>
+           </div> -->
+           
+
+       </section>
+    </main>
+
+    <footer>
+        <div class="">
+            <div class="row no-gutters align-items-center text-center justify-content-center">
+                <div class="footer-left col-lg-5">
+                    <h4 class="footer-h4 ">Contact</h4>
+                    <p class="footer-p">
+                        新北市蘆洲區集賢路267號
+                        <br>
+                        boolulu@gmail.com
+                    </p>
+                </div>
+                <div class="footer-logo col-lg-2 mt-3">
+                    <!-- <img src="./image/logo.png" alt=""> -->
+                    <h4 class="footer-h4 moblie-none">Follow us !</h4>
+                     <a target="_blank" href="https://www.instagram.com/boolulu.co/"><img src="./image/ins.png" alt=""></a>
+                     <a target="_blank" href="https://www.facebook.com/"><img src="./image/fb.webp" alt=""></a>
+                </div>
+                <div class="footer-right col-lg-5 mt-3">
+                    <h4 class="footer-h4">Opening Time</h4>
+                    <p class="footer-p">Monday - Friday <br> 10:00 am - 06:30 pm
+                </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="js/canele.js"></script>
+</body>
+</html>
